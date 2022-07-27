@@ -31,26 +31,26 @@ app.get("/aboutus",(req, res)=>{
     );
 });
 
-// app.get("/login",(req,resp)=>{
-//     resp.send(
-//         "<h1>Vijay Sales </h1>"
-//         + "<h3>Login</h3>"
-//         +"<hr/>"
-//         +"<form>"
-//         + "<input/>"
-//         + "<br/>"
-//         +"<input/> "
-//         +"<button>login</button>"
-//         + "</form>"
-//     )
-// })
+app.get("/login",(req,resp)=>{
+    resp.send(
+        "<h1>Vijay Sales </h1>"
+        + "<h3>Login</h3>"
+        +"<hr/>"
+        +"<form>"
+        + "<input/>"
+        + "<br/>"
+        +"<input/> "
+        +"<button>login</button>"
+        + "</form>"
+    )
+})
 
-// app.get("/bhushan",(req, res) => {
-//     res.send(
-//         "<h1>Name : Bhushan Jagdish Lokhande </h1>" 
-//         + "<h2> Address : Urjanagar, Chandrapur , Maharashtra -- 442404 </h2>"
-//     );
-// });
+app.get("/bhushan",(req, res) => {
+    res.send(
+        "<h1>Name : Bhushan Jagdish Lokhande </h1>" 
+        + "<h2> Address : Urjanagar, Chandrapur , Maharashtra -- 442404 </h2>"
+    );
+});
 
 app.listen(4000);
 console.log("Application running on port 4000");
