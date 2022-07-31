@@ -48,12 +48,12 @@ app.get("/login",(req,resp)=>{
     )
 })
 
-// app.get("/bhushan",(req, res) => {
-//     res.send(
-//         "<h1>Name : Bhushan Jagdish Lokhande </h1>" 
-//         + "<h2> Address : Urjanagar, Chandrapur , Maharashtra -- 442404 </h2>"
-//     );
-// });
+app.get("/bhushan",(req, res) => {
+    res.send(
+        "<h1>Name : Bhushan Jagdish Lokhande </h1>" 
+        + "<h2> Address : Urjanagar, Chandrapur , Maharashtra -- 442404 </h2>"
+    );
+});
 
 app.listen(4000);
 console.log("Application running on port 4000");
